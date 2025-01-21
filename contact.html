@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__principal">
+        <div class="nav__logo">
+          <a href="index.html">
+            <img src="img/AFA_LOGO_B.png" class="nav__img" alt="LOGO AFA">
+          </a>
+        </div>
+        <ul class="nav__menu">
+          <li><a class="nav__link" href="info.html">Info</a></li>
+          <li><a class="nav__link" href="#">Trabajo</a></li>
+          <li><a class="nav__link" href="#"><b>Contacto</b></a></li>
+        </ul>
+      </div>
+      <ul class="nav__language">
+        <li><a class="nav__link" href="#"><b>es</b></a></li>
+        <li><a class="nav__link" href="#">eng</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="contact__image">
+      <figure>
+        <img src="img/Frame 1.png" alt="">
+      </figure>
+      <figure>
+        <img src="img/Frame 2.png" alt="">
+      </figure>
+      <figure>
+        <img src="img/Frame 3.png" alt="">
+      </figure>
+    </section>
+    <section class="contact__form">
+      <form id="form" class="form" action="https://formsubmit.co/335384098147310578b184f075262ce1" method="POST">
+        <legend class="form__title">contacto@alonso.com</legend>
+        <p>Si deseas contactarnos por favor dejanos tu mensaje</p>
+        <div class="form__group">
+          <input class="form__input" type="text" id="name" name="name" placeholder=" " required>
+          <label class="form__label" for="name">NOMBRE COMPLETO</label>
+          <span class="form__bar"></span>
+        </div>
+        <div class="form__group">
+          <input class="form__input" type="email" id="email" name="email" placeholder=" " required>
+          <label class="form__label" for="email">CORREO ELECTRONICO</label>
+          <span class="form__bar"></span>
+        </div>
+        <div class="form__group">
+          <input class="form__input" type="email" id="email" name="email" placeholder=" " required>
+          <label class="form__label" for="email">ASUNTO</label>
+          <span class="form__bar"></span>
+        </div>
+        <div class="">
+          <textarea class="form__input form__input--textarea" id="message" name="message" placeholder="MENSAJE" required></textarea>
+        </div>
+        <button id="button" class="form__submit" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

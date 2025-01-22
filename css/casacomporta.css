@@ -328,3 +328,17 @@ a {
     ;
   }
 }
+
+/*
+  * FOOTER *
+*/
+
+.footer .nav {
+  position: unset;
+  background-color: unset;
+  color: s;
+}
+
+.nav__link--gray {
+  color: #898989;
+}

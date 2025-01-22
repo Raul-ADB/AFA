@@ -1,0 +1,29 @@
+/* 
+  * MAIN *
+*/
+
+body {
+  background-image: url('../img/in1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__picture {
+  width: 38rem;
+  height: 18rem;
+  cursor: pointer;
+  /* width: 100%;
+  height: 100vh; */
+}
+
+.main__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

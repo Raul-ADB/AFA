@@ -11,6 +11,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Montserrat", serif;
 }
 
 body {
@@ -123,6 +124,17 @@ a {
 .nav__language {
   display: flex;
   gap: 3rem;
+}
+
+.nav__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.nav__contact img {
+  filter: grayscale(50%);
 }
 
 /* MAIN */

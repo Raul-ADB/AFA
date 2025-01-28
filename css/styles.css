@@ -297,17 +297,46 @@ a {
 
 .project__gallery {
   height: max-content;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   gap: 5rem;
 }
 
-.project__image {
+
+.project {
   width: 100%;
   height: max-content;
+  position: relative;
 }
 
-.project__image--3 img {
+.project__title {
+  position: sticky;
+  top: 60%;
+  left: 5%;
+  width: max-content;
+  color: #FFF;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  z-index: 100;
+}
+
+.project__title--gray {
+  color: #000;
+  background-color: #c1c1c1;
+}
+
+.project__title--black {
+  color: #000;
+}
+
+.project__image {
+  width: 100%;
+}
+
+.image__gray {
   filter: grayscale(100%);
 }
 

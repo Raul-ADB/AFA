@@ -14,11 +14,9 @@ body {
 }
 
 .main__picture {
-  width: 38rem;
-  height: 18rem;
+  width: 25rem;
+  height: 10rem;
   cursor: pointer;
-  /* width: 100%;
-  height: 100vh; */
 }
 
 .main__img {

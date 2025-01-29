@@ -22,7 +22,13 @@ body {
   * GENERALES *
 */
 
+@view-transition {
+  navigation: auto;
+}
+
 h1, h2, h3 {
+  margin: 0;
+  padding: 0;
   text-wrap: balance;
 }
 
@@ -61,14 +67,6 @@ a {
   * HEADER *
 */
 
-.header {
-  height: 260rem;
-  background-image: url('../img/header_image.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .nav__logo {
   width: 15rem;
 }
@@ -89,9 +87,18 @@ a {
   /* box-shadow: .5px .5px 4px #e1e1e1; */
 }
 
+.nav--light {
+  background-color: #FFF;
+  backdrop-filter: blur(2rem);
+}
+
 .nav__link {
   display: inline-block;
   color: #FFF;
+}
+
+.nav__link--black {
+  color: #000;
 }
 
 @media (width >= 768px) {
@@ -318,6 +325,7 @@ a {
 
 .project {
   width: 100%;
+  height: 100%;
   height: max-content;
   position: relative;
 }
@@ -346,9 +354,11 @@ a {
 
 .project__image {
   width: 100%;
+  height: 100%;
 }
 
 .image__gray {
+  height: 100%;
   filter: grayscale(100%);
 }
 

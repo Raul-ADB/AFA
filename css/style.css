@@ -2,6 +2,10 @@
   * MAIN *
 */
 
+@view-transition {
+  navigation: auto;
+}
+
 body {
   background-image: url('../img/in1.jpg');
   background-repeat: no-repeat;

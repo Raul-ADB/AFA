@@ -8,12 +8,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/casacomporta.css">
 </head>
 <body>
 
   <header class="header">
-    <nav class="nav">
+    <nav class="nav nav--light">
       <div class="nav__principal">
         <div class="nav__logo">
           <a href="index.html">
@@ -21,34 +22,34 @@
           </a>
         </div>
         <ul class="nav__menu">
-          <li><a class="nav__link" href="info.html">Info</a></li>
-          <li><a class="nav__link" href="job.html">Trabajo</a></li>
-          <li><a class="nav__link" href="contact.html">Contacto</a></li>
+          <li><a class="nav__link nav__link--black" href="info.html">Info</a></li>
+          <li><a class="nav__link nav__link--black" href="job.html">Trabajo</a></li>
+          <li><a class="nav__link nav__link--black" href="contact.html">Contacto</a></li>
         </ul>
       </div>
       <ul class="nav__language">
-        <li><a class="nav__link" href="#"><b>es</b></a></li>
-        <li><a class="nav__link" href="#">en</a></li>
+        <li><a class="nav__link nav__link--black" href="#"><b>es</b></a></li>
+        <li><a class="nav__link nav__link--black" href="#">en</a></li>
       </ul>
     </nav>
   </header>
-  
+
   <section class="project__gallery mb">
-    <div class="project__image">
-      <img src="img/casa.jpg" class="project__img" alt="">
+    <div class="project">
+      <img src="img/casa.jpg" class="project__image" alt="">
     </div>
   </section>
 
-  <section class="project">
-    <h2 class="project__title">CASA COMPORTA</h2>
-    <div class="project__data">
+  <section class="detail">
+    <h3 class="detail__title">CASA COMPORTA</h2>
+    <div class="detail__data">
       <p>(O) Private Work</p>
       <p>Residential</p>
       <p>2022 - 2023</p>
       <p>Art Institution and private residence</p>
       <p>Muda Reserve, Comporta, Portugal</p>
     </div>
-    <div class="project__info">
+    <div class="detail__info">
       <p>Comporta se fundó a partir de sus actividades pesqueras y, posteriormente, agrícolas. Su arquitectura vernácula, compuesta por pilas de madera, funciona como una premisa y lenguaje fundamental de diseño. Materiales como la madera y la piedra local comunican la ligereza o pesadez del edificio y su programa. El paisaje dicta las orientaciones de los volúmenes.</p>
       <p>Las plataformas y volúmenes elevados demuestran un enfoque sostenible en respeto a la tierra. Crean una variedad de configuraciones espaciales para programas privados, semi-privados y públicos en una parcela de once acres.</p>
       <p>El proyecto propone una secuencia de agrupaciones formadas por estrategias programáticas para coexistir con el entorno existente. Plataformas, pabellones y bungalows se convierten en límites del paisaje, volúmenes que se abren hacia el exterior en celebración de la naturaleza. La calma se percibe en la relación entre sus elementos y texturas.</p>
@@ -58,59 +59,103 @@
 
   <section class="card__gallery card__gallery--C container mb">
     <div class="card card__c--1">
-      <img src="img/casa1.jpg" class="card__image" alt="Card Image">
-      <h3 class="card__title">Titulo</h3>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa1.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--2">
-      <img src="img/casa2.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa2.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--3">
-      <img src="img/casa3.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa3.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--4">
-      <img src="img/casa4.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa4.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--5">
-      <img src="img/casa5.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa5.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--6">
-      <img src="img/casa6.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa6.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--7">
-      <img src="img/casa7.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa7.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--8">
-      <img src="img/casa8.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa8.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--9">
-      <img src="img/casa9.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa9.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--10">
-      <img src="img/casa10.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa10.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
     <div class="card card__c--11">
-      <img src="img/casa11.jpg" class="card__image" alt="Card Image">
-      <h2 class="card__title">Titulo</h2>
-      <p class="card__description">Descripcion</p>
+      <figure class="card__picture">
+        <img src="img/casa11.jpg" class="card__image" alt="Card Image">
+      </figure>
+      <div class="card__body">
+        <h3 class="card__title">Titulo</h3>
+        <p class="card__description">Descripcion</p>
+      </div>
     </div>
   </section>
 
@@ -121,13 +166,13 @@
           <img src="img/AFA_LOGO_B.png" class="nav__img" alt="LOGO AFA">
         </div>
         <ul class="nav__menu">
-          <li><a class="nav__link nav__link--gray" href="#">Info</a></li>
-          <li><a class="nav__link nav__link--gray" href="#">Trabajo</a></li>
-          <li><a class="nav__link nav__link--gray" href="#">Contacto</a></li>
+          <li><a class="nav__link nav__link--gray" href="info.html">Info</a></li>
+          <li><a class="nav__link nav__link--gray" href="job.html">Trabajo</a></li>
+          <li><a class="nav__link nav__link--gray" href="contact.html">Contacto</a></li>
         </ul>
       </div>
       <ul class="nav__contact">
-        <li><h3 class="nav__link--gray">CONTACTO</h3></li>
+        <li><h4 class="nav__link--gray">CONTACTO</h4></li>
         <li><a class="nav__link nav__link--gray" href="#">contacto@alonso.com</a></li>
         <li><a class="nav__link nav__link--gray" href="#">@afa.arq</a></li>
         <li><a class="nav__link nav__link--gray" href="#"> </a></li>

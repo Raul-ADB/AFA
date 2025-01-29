@@ -7,7 +7,7 @@
 */
 
 .main {
-  margin-top: 10rem;
+  margin-top: 20rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -36,7 +36,7 @@
 
 .form__title {
   color: var(--color-gray-900);
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
@@ -96,7 +96,7 @@
 .form__label {
   position: absolute;
   color: #49454567;
-  font-size: 2rem;
+  font-size: 1.6rem;
   left: .5rem;
   top: 1rem;
   pointer-events: none;
@@ -105,12 +105,12 @@
 
 .form__submit {
   width: 17rem;
-  height: 3rem;
+  padding-block: 1rem;
   border: none;
   background-color: #c6c6c6;
   color: #000;
   outline: none;
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 1.6rem;
+  font-weight: 500;
   cursor: pointer;
 }

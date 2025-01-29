@@ -7,12 +7,19 @@
 */
 
 .main {
-  margin-top: 20rem;
+  margin-top: 18rem;
+  margin-bottom: 3rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
+@media (width >= 768px) {
+  .main {
+    flex-direction: row;
+  }
+}
 .contact__image {
   display: flex;
   flex-direction: column;
@@ -20,8 +27,16 @@
 }
 
 .contact__form {
-  width: 50%;
+  width: 90%;
   height: 100%;
+  margin-top: 5rem;
+}
+
+@media (width >= 768px) {
+  .contact__form {
+    width: 50%;
+    margin-top: 0;
+  }
 }
 
 .form {

@@ -13,24 +13,27 @@
 .portfolio {
   width: 100%;
   height: 100%;
-  background-color: crimson;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
 }
 
 .portfolio__elements {
-  width: 100%;
-  height: 100%;
-  background-color: steelblue;
   display: flex;
-  flex-basis: 1;
   flex-direction: column;
   justify-content: space-between;
+  transition: all .5s;
+}
 
-  p:not(.active) {
-    color: #c6c6c6;
-  }
+.link__job {
+  display: inline-block;
+  color: #c6c6c6;
+}
+
+.link__job:hover {
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
 }
 
 .portfolio__image {

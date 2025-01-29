@@ -12,15 +12,21 @@
 
 .portfolio {
   width: 100%;
+  height: 100%;
+  background-color: crimson;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .portfolio__elements {
+  width: 100%;
+  height: 100%;
+  background-color: steelblue;
   display: flex;
+  flex-basis: 1;
   flex-direction: column;
-  gap: 7rem;
+  justify-content: space-between;
 
   p:not(.active) {
     color: #c6c6c6;

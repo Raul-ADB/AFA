@@ -147,6 +147,18 @@ a {
   filter: grayscale(50%);
 }
 
+@keyframes scale-up {
+  to {
+    scale: 1;
+  }
+}
+
+@keyframes scale-down {
+  to {
+    scale: 0;
+  }
+}
+
 /*
   * CARD *
 */

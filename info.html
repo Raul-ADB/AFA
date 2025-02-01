@@ -14,23 +14,30 @@
 <body>
 
   <header class="header">
-    <nav class="nav nav--light">
+    <nav id="navbar" class="nav nav--light">
       <div class="nav__principal">
         <div class="nav__logo">
           <a href="home.html">
             <img src="img/AFA_LOGO_B.png" class="nav__img" alt="LOGO AFA">
           </a>
         </div>
+        <button id="navMenu" class="nav__button">
+          <span class="button__stick nav--dark button__stick--1"></span>
+          <span class="button__stick nav--dark button__stick--2"></span>
+          <span class="button__stick nav--dark button__stick--3"></span>
+        </button>
+      </div>
+      <div id="navOptions" class="nav__options nav--light">
         <ul class="nav__menu">
           <li><a class="nav__link nav__link--black" href="#"><b>Info</b></a></li>
           <li><a class="nav__link nav__link--black" href="job.html">Trabajo</a></li>
           <li><a class="nav__link nav__link--black" href="contact.html">Contacto</a></li>
         </ul>
+        <ul class="nav__language">
+          <li><a class="nav__link nav__link--black" href="#"><b>es</b></a></li>
+          <li><a class="nav__link nav__link--black" href="#">en</a></li>
+        </ul>
       </div>
-      <ul class="nav__language">
-        <li><a class="nav__link nav__link--black" href="#"><b>es</b></a></li>
-        <li><a class="nav__link nav__link--black" href="#">eng</a></li>
-      </ul>
     </nav>
   </header>
 
@@ -83,23 +90,28 @@
     <nav class="nav">
       <div class="nav__principal">
         <div class="nav__logo">
-          <img src="img/AFA_LOGO_B.png" class="nav__img" alt="LOGO AFA">
+          <a href="home.html">
+            <img src="img/AFA_LOGO_B.png" class="nav__img" alt="LOGO AFA">
+          </a>
         </div>
+      </div>
+      <div class="nav__options">
         <ul class="nav__menu">
           <li><a class="nav__link nav__link--gray" href="#"><b>Info</b></a></li>
           <li><a class="nav__link nav__link--gray" href="job.html">Trabajo</a></li>
           <li><a class="nav__link nav__link--gray" href="contact.html">Contacto</a></li>
         </ul>
+        <ul class="nav__contact">
+          <li><h4 class="nav__link--gray">CONTACTO</h4></li>
+          <li><a class="nav__link nav__link--gray" href="#">contacto@alonso.com</a></li>
+          <li><a class="nav__link nav__link--gray" href="#">@afa.arq</a></li>
+          <li><a class="nav__link nav__link--gray" href="#"> </a></li>
+          <li><a class="nav__link nav__link--gray" href="#">Ciudad de México 2025</a></li>
+        </ul>
       </div>
-      <ul class="nav__contact">
-        <li><h4 class="nav__link--gray">CONTACTO</h4></li>
-        <li><a class="nav__link nav__link--gray" href="#">contacto@alonso.com</a></li>
-        <li><a class="nav__link nav__link--gray" href="#">@afa.arq</a></li>
-        <li><a class="nav__link nav__link--gray" href="#"> </a></li>
-        <li><a class="nav__link nav__link--gray" href="#">Ciudad de México 2025</a></li>
-      </ul>
     </nav>
   </footer>
 
+  <script src="js/main2.js"></script>
 </body>
 </html>

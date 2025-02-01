@@ -1,16 +1,21 @@
 let lastScrollTop = 0;
 const navbar = document.getElementById('navbar');
+let navMenu = document.querySelector('#navMenu');
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', () => {
     let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
     if (currentScroll > lastScrollTop) {
-        // Scroll hacia abajo
-        navbar.style.top = "-100px";  // Esconde la navbar
+        navbar.style.top = "-100px";
     } else {
-        // Scroll hacia arriba
-        navbar.style.top = "0";  // Muestra la navbar
+        navbar.style.top = "0";
     }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+});
 
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Evitar que se pase al valor negativo
+
+navMenu.addEventListener('click', () => {
+    let menu = document.querySelector('#navOptions');
+    menu.classList.toggle('open');
+    navMenu.classList.toggle('open');
 });

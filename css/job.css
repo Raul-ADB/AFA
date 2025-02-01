@@ -36,6 +36,12 @@
   transition: all .5s;
 }
 
+@media (width >= 768px) {
+  .portfolio__elements {
+    align-items: flex-start;
+  }
+}
+
 .link__job {
   display: inline-block;
   color: #c6c6c6;

@@ -7,8 +7,7 @@
 */
 
 .main {
-  margin-top: 18rem;
-  margin-bottom: 3rem;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -21,13 +20,14 @@
   }
 }
 .contact__image {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 4rem;
 }
 
 .contact__form {
-  width: 90%;
+  width: 100%;
   height: 100%;
   margin-top: 5rem;
 }

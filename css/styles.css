@@ -155,7 +155,7 @@ a {
 }
 
 .open {
-  --translate-menu: translateY(-0.1px);
+  --translate-menu: translateY(0);
   --translate-stick1: 0 0;
   --translate-stick3: 0 0;
   --rotate-stick1: 45deg;

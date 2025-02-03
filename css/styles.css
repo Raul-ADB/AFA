@@ -20,6 +20,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-weight: 300;
 }
 
 /*
@@ -150,7 +151,7 @@ a {
 }
 
 .open {
-  --translate-menu: translateY(-1px);
+  --translate-menu: translateY(-0.1px);
   --translate-stick1: 0 0;
   --translate-stick3: 0 0;
   --rotate-stick1: 45deg;
@@ -186,6 +187,7 @@ a {
 .nav__principal {
   margin: 0 auto;
   width: 90%;
+  height: 8rem;
   padding-block: 1.5rem;
   display: flex;
   justify-content: space-between;

@@ -2,6 +2,24 @@
   navigation: auto;
 }
 
+.mb {
+  margin-bottom: 5rem;
+}
+
+/* Sobre escritura */
+
+.project__gallery {
+  min-height: 70rem;
+}
+
+.project {
+  min-height: 70rem;
+}
+
+.project__picture {
+  height: 70rem;
+}
+
 /* DETAIL */
 
 .detail {

@@ -60,7 +60,14 @@ a {
 }
 
 .mb {
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
+}
+
+@media (width >= 768px) {
+  .mb {
+    margin-bottom: 20rem;
+  }
+  
 }
 
 .mta {
@@ -72,7 +79,13 @@ a {
 */
 
 .nav__logo {
-  width: 15rem;
+  width: 10rem;
+}
+
+@media (width >= 768px) {
+  .nav__logo {
+    width: 15rem;
+  }
 }
 
 .nav {
@@ -137,7 +150,7 @@ a {
 }
 
 .open {
-  --translate-menu: translateY(0);
+  --translate-menu: translateY(-1px);
   --translate-stick1: 0 0;
   --translate-stick3: 0 0;
   --rotate-stick1: 45deg;

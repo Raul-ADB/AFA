@@ -23,6 +23,7 @@
 }
 .contact__image {
   margin: 0 auto;
+  width: max-content;
   display: flex;
   flex-direction: column;
   gap: 4rem;

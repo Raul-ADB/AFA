@@ -18,7 +18,7 @@
   .main {
     flex-direction: row;
     height:  calc(100vh - 29.6rem);
-    max-height: 70rem;
+    max-height: 80rem;
   }
 }
 .contact__image {

@@ -124,7 +124,11 @@
     position: relative;
   }
 
-  .element__text::before {
+  .element__year {
+    position: relative;
+  }
+
+  .element__year::before {
     content: ' ';
     display: block;
     width: 0.1rem;
@@ -132,10 +136,10 @@
     position: absolute;
     height: 90%;
     top: 3rem;
-    left: -9rem;
+    left: 2.8rem;
   }
 
-  .timeline__element:last-child .element__text::before {
+  .timeline__element:last-child .element__year::before {
     display: none;
   }
 }

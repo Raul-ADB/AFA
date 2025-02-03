@@ -11,7 +11,7 @@
 @media (width >= 768px) {
   .main {
     height:  calc(100vh - 29.6rem);
-    max-height: 70rem;
+    max-height: 80rem;
   }
 }
 

@@ -9,15 +9,15 @@
 /* Sobre escritura */
 
 .project__gallery {
-  min-height: 70rem;
+  min-height: 80rem;
 }
 
 .project {
-  min-height: 70rem;
+  min-height: 80rem;
 }
 
 .project__picture {
-  height: 70rem;
+  height: 80rem;
 }
 
 /* DETAIL */

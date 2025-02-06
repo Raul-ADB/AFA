@@ -93,6 +93,7 @@ body {
   font-size: 1.6rem;
   padding: 1rem 1rem 1rem 0.5rem;
   border-bottom: .1rem solid #000;
+  border-radius: none;
 }
 
 .form__input--textarea {

@@ -23,7 +23,7 @@ body {
 @media (width >= 768px) {
   .main {
     flex-direction: row;
-    min-width: 60rem;
+    min-height: 60rem;
     height:  calc(100vh - 29.6rem);
     max-height: 80rem;
   }
@@ -142,5 +142,5 @@ body {
 
 .footer {
   margin-top: auto;
-  padding-top: 18rem;
+  padding-top: 20rem;
 }

@@ -2,6 +2,12 @@
   navigation: auto;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 /*
   * MAIN *
 */
@@ -17,6 +23,7 @@
 @media (width >= 768px) {
   .main {
     flex-direction: row;
+    min-width: 60rem;
     height:  calc(100vh - 29.6rem);
     max-height: 80rem;
   }
@@ -131,4 +138,9 @@
   font-size: 1.6rem;
   font-weight: 500;
   cursor: pointer;
+}
+
+.footer {
+  margin-top: auto;
+  padding-top: 18rem;
 }

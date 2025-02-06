@@ -103,7 +103,7 @@ a {
   font-size: 1.6rem;
   color: #FFF;
   background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(1rem);
+  /* backdrop-filter: blur(1rem); */
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -889,6 +889,7 @@ a {
 .footer .nav__options {
   transform: unset;
   background-color: unset;
+  align-items: flex-start;
 }
 
 .nav__contact {

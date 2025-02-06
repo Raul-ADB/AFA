@@ -871,11 +871,14 @@ a {
 
 .footer {
   padding-block: 3.8rem;
+  width: 100%;
 }
 
 .footer .nav {
   position: unset;
   background-color: unset;
+  width: 100%;
+  align-items: center;
 
   .nav__logo {
     filter: brightness(0) saturate(100%) invert(57%) sepia(0%) saturate(574%) hue-rotate(140deg) brightness(95%) contrast(84%);
@@ -889,12 +892,24 @@ a {
 .footer .nav__options {
   transform: unset;
   background-color: unset;
+  width: 100%;
+  height: max-content;
+  flex-direction: column;
   align-items: flex-start;
 }
 
+.footer .nav__menu {
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .nav__contact {
+  width: 90%;
+  margin: 0 auto;
   font-size: 1.4rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 @media (width >= 768px) {

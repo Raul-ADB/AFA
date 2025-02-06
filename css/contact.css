@@ -140,7 +140,16 @@ body {
   cursor: pointer;
 }
 
-.footer {
+/* .footer {
   margin-top: auto;
   padding-top: 20rem;
 }
+
+.foooter .nav {
+  width: 100%;
+}
+
+.foooter .nav__menu {
+  flex-direction: row;
+  background-color: crimson;
+} */

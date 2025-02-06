@@ -2,6 +2,10 @@
   navigation: auto;
 }
 
+:root {
+  color-scheme: normal;
+}
+
 /*
   * RESET *
 */

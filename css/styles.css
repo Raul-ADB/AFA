@@ -29,6 +29,10 @@ body {
   flex-direction: column;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 /*
   * GENERALES *
 */

@@ -125,7 +125,6 @@ a {
     flex-direction: row;
     justify-content: space-between;
     height: 10rem;
-    background-color: aqua;
     padding-inline: 6rem;
   }
 }

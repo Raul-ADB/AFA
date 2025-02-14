@@ -15,6 +15,12 @@
 </head>
 <body>
 
+  <div class="notification hidde">
+    <div class="notification__content">
+      <p class="notification__text">Mensaje enviado con éxito</p>
+    </div>
+  </div>
+
   <header class="header">
     <nav id="navbar" class="nav nav--light">
       <div class="nav__principal">
@@ -33,7 +39,7 @@
         <ul class="nav__menu">
           <li><a class="nav__link nav__link--black" href="info.html">Info</a></li>
           <li><a class="nav__link nav__link--black" href="job.html">Trabajo</a></li>
-          <li><a class="nav__link nav__link--black" href="contact.html"><span class="bold">Contacto</span></a></li>
+          <li><a class="nav__link nav__link--black" href="#"><span class="bold">Contacto</span></a></li>
         </ul>
         <ul class="nav__language">
           <li><a class="nav__link nav__link--black" href="#"><span class="bold">es</span></a></li>
@@ -43,41 +49,44 @@
     </nav>
   </header>
 
-  <main class="main">
-    <section class="contact__image">
-      <figure>
-        <img src="img/Frame 1.png" alt="">
+  <main class="main__contact">
+    <section class="contact__AFA">
+      <figure class="contact__picture">
+        <img src="img/Frame1.png" class="contact__img" alt="">
       </figure>
-      <figure>
-        <img src="img/Frame 2.png" alt="">
+      <figure class="contact__picture">
+        <img src="img/Frame2.png" class="contact__img" alt="">
       </figure>
-      <figure>
-        <img src="img/Frame 3.png" alt="">
+      <figure class="contact__picture">
+        <img src="img/Frame3.png" class="contact__img" alt="">
       </figure>
     </section>
     <section class="contact__form">
-      <form id="form" class="form" action="https://formsubmit.co/335384098147310578b184f075262ce1" method="POST">
+      <form id="contactForm" class="form">
         <legend class="form__title">contacto@alonso.com</legend>
         <p>Si deseas contactarnos por favor dejanos tu mensaje</p>
         <div class="form__group">
-          <input class="form__input" type="text" id="name" name="name" placeholder=" " required>
+          <input class="form__input" type="text" id="name" name="name" placeholder=" ">
           <label class="form__label" for="name">Nombre completo</label>
           <span class="form__bar"></span>
         </div>
         <div class="form__group">
-          <input class="form__input" type="email" id="email" name="email" placeholder=" " required>
+          <input class="form__input" type="email" id="email" name="email" placeholder=" ">
           <label class="form__label" for="email">Correo electrónico</label>
           <span class="form__bar"></span>
         </div>
         <div class="form__group">
-          <input class="form__input" type="email" id="email" name="email" placeholder=" " required>
-          <label class="form__label" for="email">Asunto</label>
+          <input class="form__input" type="text" id="subject" name="subject" placeholder=" ">
+          <label class="form__label" for="subject">Asunto</label>
           <span class="form__bar"></span>
         </div>
         <div class="">
-          <textarea class="form__input form__input--textarea" id="message" name="message" placeholder="Mensaje" required></textarea>
+          <textarea class="form__input form__input--textarea" id="message" name="message" placeholder="Mensaje"></textarea>
         </div>
-        <button id="button" class="form__submit" type="submit">Enviar</button>
+        <button id="button" class="form__submit" type="submit">
+          <span class="submit__text">Enviar</span>
+          <span class="submit__loader hidde"></span>
+        </button>
       </form>
     </section>
   </main>
@@ -101,6 +110,8 @@
     </nav>
   </footer>
 
-  <script src="js/main2.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">emailjs.init('JBtT-Vd8mpAyUV7hM')</script>
+  <script src="js/index.js"></script>
 </body>
 </html>

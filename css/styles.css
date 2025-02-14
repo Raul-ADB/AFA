@@ -132,7 +132,7 @@ a {
 
 @media (width >= 768px) {
   .nav {
-    flex-direction: row;
+    display: flex;
     justify-content: space-between;
     height: 10rem;
     padding-inline: 6rem;
